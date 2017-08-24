@@ -4,7 +4,7 @@ import os
 
 fileNames = []
 os.chdir(".")
-for f in glob.glob("*.py"):
+for f in glob.glob("*.txt"):
     fileNames.append(f)
 
 
